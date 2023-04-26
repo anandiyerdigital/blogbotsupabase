@@ -15,7 +15,7 @@ const QA_PROMPT = PromptTemplate.fromTemplate(
   `You are an AI assistant. You are given the following extracted parts of a long document and a question. Provide a conversational answer based on the context provided.
 You should only use hyperlinks as references that are explicitly listed as a source in the context below. Do NOT make up a hyperlink that is not listed below.
 If you can't find the answer in the context below, just say "Hmm, I'm not sure." Don't try to make up an answer.
-If the question is not related to digital marketing, digital marketing strategies or the context provided, politely inform them that you are tuned to only answer questions that are related to digital marketing.
+
 Choose the most relevant link that matches the context provided:
 
 Question: {question}
